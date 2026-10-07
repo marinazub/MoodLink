@@ -1,0 +1,170 @@
+[
+  {
+    "code": "A01",
+    "name": "Shared substantive anchor",
+    "definition": "Both explanations explicitly connect the same stated feature to the same construct meaning.",
+    "include": "Paired rationale passages identify the same need, action, value, or condition and its mapping.",
+    "exclude": "Matching construct names alone; same label grounded in different objects.",
+    "family": "Agreement"
+  },
+  {
+    "code": "A02",
+    "name": "Shared label with different evidence readings",
+    "definition": "A shared proposed label conceals different objects, thresholds, or critic evaluations in the explanation text.",
+    "include": "A paired critic accepts versus challenges a mapping, or the same label is justified using different claims.",
+    "exclude": "Differences inferred only from critic_decision; absent critic text; merely unequal code sets.",
+    "family": "Agreement"
+  },
+  {
+    "code": "M01",
+    "name": "Context supplies missing meaning",
+    "definition": "An explanation explicitly uses or contests interviewer/question/context information to identify a missing actor, referent, or implementation link.",
+    "include": "Rationale names the question, or critic says the required meaning comes from it.",
+    "exclude": "Assuming context was used from a short statement alone; importing actual interview text.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M02",
+    "name": "Condition or mention becomes a process",
+    "definition": "A condition, need, roster, result, or generic activity is extended into a specific assessment, adaptation, engagement, planning, or evaluation process.",
+    "include": "A rationale asserts the conversion, or critic explicitly challenges it.",
+    "exclude": "An explicitly described process; pure innovation-versus-implementation object distinction without a process inference.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M03",
+    "name": "Innovation versus implementation target",
+    "definition": "The explanation locates evidence in the innovation's properties/materials rather than rollout, delivery processes, implementation support, or clinical work, or reverses that mapping.",
+    "include": "Rollout design versus product design; modifiability versus actual modification; training strategy versus packaged materials.",
+    "exclude": "External/inner/individual level alone (M04); actual versus anticipated timing alone (M12).",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M04",
+    "name": "Different locus or resource classification",
+    "definition": "The same condition is interpreted at different organizational levels or as different resource types.",
+    "include": "External financing versus internal funds; general infrastructure versus task-specific resources; system support versus individual attributes.",
+    "exclude": "Parent/subconstruct specificity alone; raw differences in construct names without a rationale mapping.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M05",
+    "name": "Role or personal attribute inferred",
+    "definition": "An occupation, title, action, or support cue is extended to a specific role, authority level, capability, or motivation, or that extension is challenged.",
+    "include": "Unspecified leaders become high-level leaders; choosing pilot teams becomes implementation leadership; effort becomes motivation.",
+    "exclude": "Explicitly identified roles with parallel interpretations; actual reach or outcome inferred from a role (M11).",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M06",
+    "name": "Episode generalized to culture",
+    "definition": "A specific experience, activity, need, or reaction becomes a general shared cultural value or norm, or the critic challenges that move.",
+    "include": "One participation episode becomes shared centeredness; workload becomes culture; coaching becomes a learning culture.",
+    "exclude": "Explicit shared cultural statements accepted on the same grounds by both models.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M07",
+    "name": "Specificity or detail threshold",
+    "definition": "Explanations differ or explicitly debate whether a broad label or limited detail is enough to support a construct or subtype.",
+    "include": "Parent versus child because detail is absent; label repetition accepted versus concrete criteria required.",
+    "exclude": "Inferring a stricter threshold from the other model's absence; role or time distinction alone.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M08",
+    "name": "Different claim or aspect emphasized",
+    "definition": "Available rationales emphasize different substantive clauses or analytical aspects of the same meaning unit.",
+    "include": "Actor versus activity, funding condition versus data work, involvement versus preference gathering.",
+    "exclude": "Different labels alone; missing comparator; assigning error merely because emphases are complementary.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M09",
+    "name": "Additional comparative or causal relationship",
+    "definition": "Need, benefit, fit, pressure, credibility, or affordability is extended into an additional relationship not separately stated in the explanation's described evidence.",
+    "include": "Need becomes relative advantage; credibility becomes competition; affordability becomes financial availability; tracking becomes incentives.",
+    "exclude": "Direct comparisons described by both rationales; process inference alone (M02).",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M10",
+    "name": "Label and explanation mismatch",
+    "definition": "An attached construct is inconsistent with the construct or exclusion explicitly named in its own rationale.",
+    "include": "Assessing Needs rationale explicitly invokes Assessing Context; Financing rationale explicitly says not external funding.",
+    "exclude": "Debatable mapping without an explicit internal mismatch; critic disagreement alone.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M11",
+    "name": "Determinant or activity promoted to outcome",
+    "definition": "A role, resource, feature, plan, measure, or implementation activity is interpreted as actual implementation, effectiveness, reach, or impact, or that move is challenged.",
+    "include": "Recipient identity becomes reach; a plan becomes implementation; workflow measures become clinical effectiveness.",
+    "exclude": "Explicitly reported outcomes; a prediction-versus-actual boundary without a determinant/activity promotion (M12).",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M12",
+    "name": "Time or actuality boundary",
+    "definition": "Explanations distinguish or conflate needed/intended, predicted, preexisting, and currently achieved states.",
+    "include": "Needed resources versus available resources; goals versus progress; current results versus preexisting evidence; retrospective step versus advance plan.",
+    "exclude": "Valence of an actual state (M14); generic missing detail with no temporal distinction.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M13",
+    "name": "Word or referent substitution",
+    "definition": "A rationale changes a term's object or ordinary meaning in order to map it to another construct.",
+    "include": "Adaptability becomes adoptability; privacy becomes physical space; people's clinical suitability becomes the innovation's advantage.",
+    "exclude": "Any keyword overlap without an observable semantic substitution; reasonable alternative emphases alone.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M14",
+    "name": "Negative evidence treated as non-applicability",
+    "definition": "A critic treats absence, deficiency, or negative quality as insufficient because it is not positive evidence of the construct.",
+    "include": "Incomplete design rejected for not demonstrating good design; missing information treated as inability to code design absence.",
+    "exclude": "A justified scope distinction; absence of any evidence; a generic omission by one model.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M15",
+    "name": "Communication and relationship extension",
+    "definition": "Information-sharing quality or contact knowledge is extended to relationship quality/trust, or vice versa.",
+    "include": "Candid exchange becomes trust; knowing whom to call becomes strong relationships.",
+    "exclude": "Explicit direct relationship statements; process inference from a roster without a relationship claim.",
+    "family": "Interpretation"
+  },
+  {
+    "code": "M16",
+    "name": "Critic text unavailable after technical failure",
+    "definition": "The critic_rationale itself records a technical failure instead of an evaluative explanation.",
+    "include": "An explicit empty-response or error message in an allowed rationale field.",
+    "exclude": "Missing cell alone; inferred routing failure; reconstructing an error from status columns.",
+    "family": "Evidence limitation"
+  },
+  {
+    "code": "C01",
+    "name": "Coverage split across claims",
+    "definition": "Coverage text explicitly says an assignment addresses one claim/aspect but leaves another out.",
+    "include": "A specific omitted claim or acknowledged partial scope in critic_coverage_rationale.",
+    "exclude": "No separate claims; construct-fit failure alone; treating a row-level omission as a model-wide omission.",
+    "family": "Coverage"
+  },
+  {
+    "code": "C02",
+    "name": "Different coverage assessment scope",
+    "definition": "Coverage explanations for comparable material use different units: whole meaning unit versus only claims relevant to a construct, or different judgments about claim segmentation.",
+    "include": "One critic checks design-only claims while another flags a separate benefit; one reads a single claim, another multiple claims.",
+    "exclude": "Unequal text length; missing coverage text; asserting that broader coverage equals better fit.",
+    "family": "Coverage"
+  },
+  {
+    "code": "U",
+    "name": "Missing comparator explanation",
+    "definition": "Only one model's explanations are present in the category for this meaning unit.",
+    "include": "No counterpart rationale is available in the requested five tabs for the same unit.",
+    "exclude": "An explicit rejection by the other model; inferring why that model omitted a construct.",
+    "family": "Evidence limitation"
+  }
+]
