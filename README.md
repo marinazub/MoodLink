@@ -2,7 +2,11 @@
 
 Study of LLM capabilities for CFIR coding.
 
-## Rationale codebook and reliability analysis
+## Current codebook: version 2
+
+[Revised codebook and results](rationale-codebook-v2/README.md) distinguish 122 assignment–abstention contrasts and 139 cases with critic challenges. No standalone questions were identified. Version 2 has not yet undergone independent reliability or human validation.
+
+## Version 1: rationale codebook and reliability analysis
 
 Analysis of GPT-6 and MedGemma explanations, restricted to rationale, critic_rationale, and critic_coverage_rationale across five comparison categories.
 

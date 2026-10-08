@@ -1,0 +1,90 @@
+{
+  "units": 259,
+  "positive_assignment_rows": 892,
+  "added_no_match_rows": 130,
+  "question_cases": 0,
+  "D01_cases": 122,
+  "explicit_abstention_cases": 120,
+  "R01_cases": 139,
+  "R01_assignments": 186,
+  "R01_by_model": {
+    "GPT-6": 125,
+    "medgemma": 61
+  },
+  "evidence_excerpts": 1455,
+  "code_counts": {
+    "D01": 122,
+    "R01": 139,
+    "Q01": 0,
+    "A01": 121,
+    "A02": 50,
+    "M01": 37,
+    "M02": 78,
+    "M03": 40,
+    "M04": 43,
+    "M05": 39,
+    "M06": 24,
+    "M07": 30,
+    "M08": 43,
+    "M09": 55,
+    "M10": 3,
+    "M11": 21,
+    "M12": 33,
+    "M13": 13,
+    "M14": 3,
+    "M15": 5,
+    "M16": 1,
+    "C01": 96,
+    "C02": 18
+  },
+  "categories": [
+    {
+      "category": "GPT6_Only_Assignments",
+      "units": 105,
+      "threshold_contrasts": 105,
+      "explicit_no_match": 104,
+      "critic_tension_cases": 41,
+      "challenged_assignments": 48,
+      "questions": 0
+    },
+    {
+      "category": "Medgemma_Only_Assignments",
+      "units": 17,
+      "threshold_contrasts": 17,
+      "explicit_no_match": 16,
+      "critic_tension_cases": 11,
+      "challenged_assignments": 15,
+      "questions": 0
+    },
+    {
+      "category": "Total_Construct_Match",
+      "units": 4,
+      "threshold_contrasts": 0,
+      "explicit_no_match": 0,
+      "critic_tension_cases": 2,
+      "challenged_assignments": 2,
+      "questions": 0
+    },
+    {
+      "category": "Partial_Construct_Match",
+      "units": 119,
+      "threshold_contrasts": 0,
+      "explicit_no_match": 0,
+      "critic_tension_cases": 75,
+      "challenged_assignments": 106,
+      "questions": 0
+    },
+    {
+      "category": "Different_Constructs",
+      "units": 14,
+      "threshold_contrasts": 0,
+      "explicit_no_match": 0,
+      "critic_tension_cases": 10,
+      "challenged_assignments": 15,
+      "questions": 0
+    }
+  ],
+  "category_only_case_count": 2,
+  "mixed_case_count": 10,
+  "paired_mixed_case_count": 1
+}
